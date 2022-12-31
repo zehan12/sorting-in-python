@@ -1,22 +1,10 @@
 # SortingAlgorithms
-A sorting algorithm is an algorithm that places the list elements in a certain order. Efficient sorting is critical for maximizing the performance of other algorithms that enable input data to be stored in sorted lists.
 
-This package will help user to get the results of few sorting algorithms(will be updated in future). 
-
-## Installation
-```pip install SortingAlgorithms```
-
-## How to use it?
-First, use the above command to install the package. The package includes a few algorithms that can be used either to understand the working condition or to complete the goal by using a sorting algorithm.
-
-Below is a brief example of how the package will be used to accomplish the goal.
 
 ```
-from SortingAlgorithms import Algorithms as algo
-
 data = [22, 5, 34, 12, 90, 33] 
 
-print(algo.bubbleSort(array= data, ascending= True, steps= True))
+print(bubbleSort(array= data, ascending= True, steps= True))
 ```
 Output:- 
 ```
